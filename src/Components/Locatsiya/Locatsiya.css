@@ -1,0 +1,31 @@
+.loc {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.locatsiya {
+    width: 70%;
+    height: 500px;
+    border: none;
+
+}
+@media (max-width:500px) {
+    .loc {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 900px;
+    }
+    
+    .locatsiya {
+        width: 90%;
+        height: 500px;
+        border: none;
+    
+    }
+}

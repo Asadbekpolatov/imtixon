@@ -1,0 +1,597 @@
+.ota {
+    width: 100%;
+    height: 700px;
+    /* margin-top: 100px; */
+    border: 2px solid red;
+}
+
+.ota .bola {
+    width: 100%;
+    height: 35px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola .icon {
+    font-size: 20px;
+    color: yellow;
+}
+
+.bola h1 {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ota .navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kichiknavbar {
+    width: 100%;
+    height: 5px;
+    background-color: red;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+    height: 100px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    position: relative;
+    height: 100%;
+}
+
+.bars .bar {
+    color: white;
+}
+
+.navbar ul li div {
+    display: none;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    background-color: whitesmoke;
+    top: 100px;
+    border-radius: 20px;
+    left: -40px;
+}
+
+.navbar ul li .li1_hover {
+    width: 850px;
+    height: 450px;
+    left: -50px;
+    border-radius: 20px;
+}
+
+.navbar ul li .li1_hover .hover_div1 {
+    width: 250px;
+    height: 450px;
+    margin-top: -100px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.navbar ul li .li1_hover .hover_div2 {
+    width: 250px;
+    height: 450px;
+    margin-top: -100px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+.navbar ul li .li1_hover .hover_div3 {
+    width: 250px;
+    height: 450px;
+    margin-top: -100px;
+    margin-left: 630px;
+    border-radius: 20px;
+}
+
+.hover_div1 .img100 {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+
+
+
+
+.hover_div2 .img500 {
+    width: 30px;
+    height: 30px;
+
+}
+
+.hover_div2 .img600 {
+    width: 30px;
+    height: 30px;
+
+}
+
+.hover_div2 .img700 {
+    width: 43px;
+    height: 30px;
+
+}
+
+.hover_div2 .img800 {
+    width: 30px;
+    height: 30px;
+
+}
+
+.hover_div3 .img900 {
+    width: 30px;
+    height: 30px;
+
+}
+
+.hover_div3 .img1000 {
+    width: 30px;
+    height: 30px;
+
+}
+
+.hover_div3 .img1100 {
+    width: 30px;
+    height: 30px;
+
+}
+
+.hover_div1 h1 {
+    font-size: 15px;
+}
+
+.hover_div2 h1 {
+    font-size: 15px;
+}
+
+.hover_div3 h1 {
+    font-size: 15px;
+}
+
+.hover_div1 .img200 {
+    width: 40px;
+    height: 40px;
+
+}
+
+.hover_div1 .img300 {
+    width: 40px;
+    height: 40px;
+
+}
+
+.hover_div1 .img400 {
+    width: 40px;
+    height: 40px;
+
+}
+
+.navbar ul li .li2_hover {
+    background-color: whitesmoke;
+    width: 450px;
+    height: 340px;
+    border-radius: 20px;
+}
+
+.navbar ul li .li3_hover {
+    background-color: green;
+}
+
+.navbar ul li:hover div {
+    display: block;
+}
+
+
+.navbar button {
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    background-color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar img {
+    margin-right: 20px;
+}
+
+.navbar img {
+    width: 160px;
+}
+
+
+
+
+.bola1 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 58px; */
+    background-image: url("../../image/img6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.818);
+
+}
+
+.bola1 h1 {
+    height: 150px;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    width: 850px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bola1 span {
+    font-size: 20px;
+    color: brown;
+}
+
+.bola1 p {
+    color: white;
+    width: 750px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0px;
+}
+
+.bola1 button {
+    width: 200px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.li2_hover p {
+    font-size: 20px;
+    width: 450px;
+    text-align: center;
+}
+
+.li4_hover h2 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+@media (max-width:500px) {
+    .ota {
+        width: 100%;
+        height: 700px;
+        /* margin-top: 100px; */
+    }
+
+    .bars {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: brown;
+    }
+
+    .bars .bar {
+        font-size: 20px;
+        margin-left: 25px;
+        margin-top: 24px;
+        color: white;
+    }
+
+    .ota .bola {
+        width: 100%;
+        height: 40px;
+        background-color: brown;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bola .icon {
+        font-size: 35px;
+        color: yellow;
+    }
+
+    .bola h1 {
+        width: 100%;
+        font-size: 10px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        letter-spacing: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .ota .navbar {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .kichiknavbar {
+        width: 100%;
+        height: 5px;
+        background-color: red;
+    }
+
+    .navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        height: 100px;
+        display: none;
+
+    }
+
+    .navbar ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+        position: relative;
+        height: 100%;
+    }
+
+
+
+    .navbar ul li div {
+        display: none;
+        width: 350px;
+        height: 200px;
+        position: absolute;
+        background-color: whitesmoke;
+        top: 100px;
+        border-radius: 20px;
+        left: -40px;
+    }
+
+    .navbar ul li .li1_hover {
+        width: 850px;
+        height: 450px;
+        left: -50px;
+        border-radius: 20px;
+    }
+
+    .navbar ul li .li1_hover .hover_div1 {
+        width: 250px;
+        height: 450px;
+        margin-top: -100px;
+        padding-left: 20px;
+        border-radius: 20px;
+    }
+
+    .navbar ul li .li1_hover .hover_div2 {
+        width: 250px;
+        height: 450px;
+        margin-top: -100px;
+        margin-left: 350px;
+        border-radius: 20px;
+    }
+
+    .navbar ul li .li1_hover .hover_div3 {
+        width: 250px;
+        height: 450px;
+        margin-top: -100px;
+        margin-left: 630px;
+        border-radius: 20px;
+    }
+
+    .hover_div1 .img100 {
+        width: 30px;
+        height: 30px;
+
+    }
+
+
+
+
+
+
+    .hover_div2 .img500 {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .hover_div2 .img600 {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .hover_div2 .img700 {
+        width: 43px;
+        height: 30px;
+
+    }
+
+    .hover_div2 .img800 {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .hover_div3 .img900 {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .hover_div3 .img1000 {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .hover_div3 .img1100 {
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .hover_div1 h1 {
+        font-size: 15px;
+    }
+
+    .hover_div2 h1 {
+        font-size: 15px;
+    }
+
+    .hover_div3 h1 {
+        font-size: 15px;
+    }
+
+    .hover_div1 .img200 {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .hover_div1 .img300 {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .hover_div1 .img400 {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .navbar ul li .li2_hover {
+        background-color: whitesmoke;
+        width: 450px;
+        height: 340px;
+        border-radius: 20px;
+    }
+
+    .navbar ul li .li3_hover {
+        background-color: green;
+    }
+
+    .navbar ul li:hover div {
+        display: block;
+    }
+
+
+    .navbar button {
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+        margin-right: 100px;
+        padding: 20px 30px;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        background-color: brown;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .navbar img {
+
+        width: 200px;
+    }
+
+
+
+
+
+
+    .bola1 {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* margin-top: 58px; */
+        background-image: url("../../image/img6.jpg");
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: color;
+        background-color: rgba(0, 0, 0, 0.818);
+
+    }
+
+    .bola1 h1 {
+        height: 150px;
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .bola1 span {
+        font-size: 20px;
+        color: brown;
+    }
+
+    .bola1 p {
+        color: white;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+   
+
+    }
+
+    .bola1 button {
+        width: 140px;
+        background-color: red;
+        color: white;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+
+    .li2_hover p {
+        font-size: 20px;
+        width: 450px;
+        text-align: center;
+    }
+
+    .li4_hover h2 {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,334 @@
+.otasi {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bolasi1 {
+    width: 70%;
+    height: 120px;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+
+.bolasi1 .icon {
+font-size: 25px;
+    color: rgba(255, 255, 0, 0.792);
+}
+
+.qizlari {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span:nth-child(1) {
+    color: rgb(87, 87, 238);
+}
+
+span:nth-child(2) {
+    color: rgb(197, 85, 85);
+
+}
+
+span:nth-child(3) {
+    color: yellow;
+}
+
+span:nth-child(4) {
+    color: rgb(87, 87, 238);
+}
+
+span:nth-child(5) {
+    color: green;
+}
+
+span:nth-child(6) {
+    color: rgb(197, 85, 85);
+
+}
+
+.box .spn {
+    color: dimgrey;
+    font-size: 15px;
+}
+
+h2 {
+    color: rgb(33, 32, 32);
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.otasi h1 {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qizi1 {
+    width: 32%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px 20px;
+
+
+}
+
+.imgs {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    grid-gap: 20px;
+    width: 300px;
+
+
+}
+
+
+.imgs img {
+    width: 60px;
+}
+
+h4 {
+    width: 100px;
+    height: 60px;
+    font-size: 18px;
+}
+
+h4 span {
+    font-size: 15px;
+}
+
+.qizi1 .asadbek {
+    width: 20px;
+}
+
+.qizlari .qizi1 .ppp {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.car {
+    width: 320px;
+    height: 63px;
+    margin-top: 20px;
+
+}
+
+.car .h11 {
+    font-size: 50px;
+    width: 200px;
+    height: 70px;
+
+}
+
+.car .spd {
+    font-size: 15px;
+    color: rgb(107, 103, 103);
+}
+
+.car .h21 {
+    color: blue;
+    font-size: 18px;
+}
+
+@media (max-width:500px) {
+    .otasi {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 200px;
+
+    }
+
+    .bolasi1 {
+        /* margin-top: 200px; */
+        width: 70%;
+        height: 220px;
+        background-color: whitesmoke;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        /* padding: 30px; */
+        border-radius: 20px;
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+
+    .bolasi1 img {
+        width: 20px;
+    }
+
+    .qizlari {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    span {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    span:nth-child(1) {
+        color: rgb(87, 87, 238);
+    }
+
+    span:nth-child(2) {
+        color: rgb(197, 85, 85);
+
+    }
+
+    span:nth-child(3) {
+        color: yellow;
+    }
+
+    span:nth-child(4) {
+        color: rgb(87, 87, 238);
+    }
+
+    span:nth-child(5) {
+        color: green;
+    }
+
+    span:nth-child(6) {
+        color: rgb(197, 85, 85);
+
+    }
+
+    .box .spn {
+        color: dimgrey;
+        font-size: 15px;
+    }
+
+    f h2 {
+        color: rgb(33, 32, 32);
+        font-size: 25px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .otasi h1 {
+        width: 400px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .qizi1 {
+        width: 350px;
+        height: 300px;
+        background-color:whitesmoke;
+        border-radius: 20px;
+        padding: 20px 20px;
+        margin-top: 20px;
+
+
+    }
+
+    .imgs {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        grid-gap: 20px;
+        width: 300px;
+
+
+    }
+
+
+    .imgs img {
+        width: 60px;
+    }
+
+    h4 {
+        width: 100px;
+        height: 60px;
+        font-size: 18px;
+    }
+
+    h4 span {
+        font-size: 15px;
+    }
+
+    .qizi1 .asadbek {
+        width: 20px;
+    }
+
+    .qizlari .qizi1 .ppp {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .car {
+        width: 320px;
+        height: 63px;
+        margin-top: 20px;
+
+    }
+
+    .car .h11 {
+        font-size: 50px;
+        width: 200px;
+        height: 70px;
+
+    }
+
+    .car .spd {
+        font-size: 15px;
+        color: rgb(107, 103, 103);
+    }
+
+    .car .h21 {
+        color: blue;
+        font-size: 18px;
+    }
+}

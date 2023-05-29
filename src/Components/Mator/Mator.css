@@ -1,0 +1,51 @@
+.mator {
+    width: 100%;
+    height: 10px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.mator .imgmator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+  
+}
+
+.mator img {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+@media (max-width:500px) {
+    .mator {
+        width: 100%;
+        height: 5px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    
+    .mator .imgmator {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+    }
+    
+    .mator img {
+        width: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-top: 30px;
+    }
+}
