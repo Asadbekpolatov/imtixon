@@ -14,6 +14,10 @@
     height: 500px;
 }
 
+.container1 p {
+    width: 100%;
+}
+
 .container1 .right {
     width: 40%;
     height: 500px;
@@ -56,6 +60,7 @@
         justify-content: center;
         flex-direction: column;
         margin-top: 30px;
+        margin-left: 0px;
     }
 
     .container1 .left {
@@ -63,6 +68,10 @@
         flex-direction: column;
         width: 100%;
         height: 500px;
+    }
+
+    .container1 p {
+        width: 100%;
     }
 
     .container1 .right {
@@ -79,7 +88,7 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-       border-radius: 20px;
+        border-radius: 20px;
         margin-top: 120px;
     }
 
@@ -92,13 +101,13 @@
     .left h1 {
         font-size: 40px;
         margin-left: 10px;
-        width: 500px;
+        width: 100%;
     }
 
     .left p {
         font-size: 20px;
         line-height: 25px;
-        width: 450px;
+        width: 90%;
         margin-left: 10px;
         color: rgba(0, 0, 0, 0.753);
     }
