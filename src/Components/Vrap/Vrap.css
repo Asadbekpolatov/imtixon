@@ -269,8 +269,8 @@
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        margin-left: 50px;
-        margin-top: 200px;
+        margin-top: 200px;margin-left: 100px;
+    
 
 
 
@@ -286,7 +286,7 @@
     }
 
     .vrap1 p {
-        width: 150%;
+        width: 100%;
         font-size: 18px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin-top: 10px;
