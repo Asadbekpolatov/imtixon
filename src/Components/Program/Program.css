@@ -80,7 +80,7 @@
     }
 
     .imge {
-        width: 100%;
+        width: 90%;
         height: 500px;
         filter: brightness(25%);
         background-image: url(https://assets.website-files.com/5f580d99f35b645d5874d923/617190a97f2239b0ba3ef535_Adrenaline%20Diesel-1261280.jpg);
@@ -113,13 +113,13 @@
     }
 
     .text input {
-        width: 400px;
+        width: 300px;
         height: 40px;
         border: none;
     }
 
     .text .input2 {
-        width: 400px;
+        width: 300px;
         height: 30px;
         background-color: rgb(50, 48, 48);
         border-radius: 20px;

@@ -269,7 +269,7 @@
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        margin-top: 200px;margin-left: 100px;
+        margin-top: 200px;margin-left: 80px;
     
 
 
@@ -361,7 +361,7 @@
         background-color: silver;
         border-radius: 20px;
         width: 70%;
-        height: 900px;
+        height: auto;
         margin-left: 80px;
     }
 
@@ -391,6 +391,7 @@
 
     .left1 .uch {
         width: 80%;
+        height: auto;
         background-color: silver;
         border-radius: 20px;
      
@@ -434,8 +435,9 @@
 
     .left1 .ikki {
         width: 70%;
+        height: auto;
         margin-left: 80px;
-        margin-top: 1700px;
+        margin-top: 200px;
     }
 
     .right1 p {
