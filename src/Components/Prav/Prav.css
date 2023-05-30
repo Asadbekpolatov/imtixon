@@ -1,6 +1,6 @@
 .prav {
-    width: 70%;
-    height: 600px;
+    width: 90%;
+    height: auto;
     margin: auto;
     margin-top: 200px;
 }
@@ -93,7 +93,11 @@
         align-items: flex-start;
         flex-direction: column;
         margin-top: 130px;
-       
+
+    }
+
+    .bottom1 {
+        width: 90%;
     }
 
     .bottom1 img {
@@ -111,11 +115,11 @@
         font-size: 20px;
         line-height: 25px;
         margin-top: 20px;
-        width: 350px;
+        width: 100%;
     }
 
     .prav .bottom .bottom1 {
-        width: 25%;
+        width: 90%;
         height: 450px;
     }
 

@@ -31,7 +31,7 @@ function App() {
       <Program />
       <Accordion />
       <Line />
-      <Main/>
+      <Main />
 
     </div >
   );

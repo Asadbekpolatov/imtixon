@@ -1,43 +1,96 @@
-.img2500 {
-    width: 100%;
-    height: 650px;
-    object-fit: cover;
-    background-image: url(../../image/img2500.jpg);
-    position: absolute;
-    z-index: -1;
-    filter: brightness(20%);
-}
-
-.comp {
+.comps {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-
-}
-
-.comp h3 {
-    color: rgba(255, 255, 255, 0.77);
+    width: 100%;
+    height: auto;
+    position: relative;
     margin-top: 100px;
 }
 
-.comp h1 {
+.img2500 {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(20%);
+}
+
+
+.comps h3 {
+    color: rgba(255, 255, 255, 0.77);
+}
+
+.comps h1 {
     color: rgba(255, 255, 255, 0.77);
     font-size: 40px;
 }
 
-.comp p {
+.comps p {
     color: rgba(255, 255, 255, 0.77);
     width: 100%;
     text-align: center;
 }
 
-.comp .bat button {
+.comps .bat button {
     width: 220px;
     height: 45px;
     background-color: red;
     color: white;
     border-radius: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+@media(max-width:500px) {
+    .comps {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 0px;
+        overflow: hidden;
+    }
+
+    .img2500 {
+        position: absolute;
+        width: auto;
+        height: 400px;
+        height: auto;
+        object-fit: cover;
+        z-index: -1;
+        filter: brightness(20%);
+    }
+
+
+    .comps h3 {
+        color: rgba(255, 255, 255, 0.77);
+    }
+
+    .comps h1 {
+        color: rgba(255, 255, 255, 0.77);
+        font-size: 40px;
+    }
+
+    .comps p {
+        color: rgba(255, 255, 255, 0.77);
+        width: 100%;
+        text-align: center;
+    }
+
+    .comps .bat button {
+        width: 90%;
+        height: 45px;
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 20px;
+    }
 }

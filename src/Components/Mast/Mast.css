@@ -9,13 +9,16 @@
 }
 
 .mast {
+    width: 100%;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    line-height: 40px;
 }
 
-.mast h4 {
+.mast h3 {
     color: rgba(255, 255, 255, 0.541);
 }
 
@@ -32,7 +35,9 @@
 
 .mast p {
     color: white;
-    width: 560px;
+    width: 50%;
+    line-height: 25px;
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -42,6 +47,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 .butons button {
@@ -76,7 +82,8 @@
 
     }
 
-    .mast h4 {
+    .mast h3 {
+        display: none;
         color: rgba(255, 255, 255, 0.541);
     }
 
@@ -86,14 +93,15 @@
 
     .mast h1 {
         font-size: 40px;
-        width: 400px;
+        width: 80%;
         color: white;
+        margin-top: 150px;
         text-align: center;
     }
 
     .mast p {
         color: white;
-        width: 450px;
+        width: 80%;
         text-align: center;
     }
 
@@ -102,11 +110,11 @@
         height: 40px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .butons button {
-        width: 120px;
+        width: 100px;
         height: 50px;
         border-radius: 30px;
         background-color: rgba(255, 255, 255, 0.778);

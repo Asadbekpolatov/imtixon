@@ -115,19 +115,19 @@
         height: 100px;
         padding-left: 80px;
         padding-top: 20px;
-        border: 2px solid black;
     }
 
     .carts_navbar p {
         font-size: 15px;
         color: #D6001E;
         font-weight: 600;
+        margin-top: -30px;
     }
 
     .carts_navbar h1 {
         padding-top: 0px;
         font-size: 40px;
-        margin-top: -20px;
+        margin-top: 10px;
     }
 
     .carts_carts {
@@ -145,6 +145,7 @@
         height: auto;
         margin-top: 30px;
         background-color: #F7F7F7;
+        margin-left: 0px;
     }
 
     .cart_nav {

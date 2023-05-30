@@ -1,9 +1,10 @@
 .loc {
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1000px;
 }
 
 .locatsiya {
@@ -19,7 +20,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 900px;
+        margin-top: 1800px;
     }
     
     .locatsiya {

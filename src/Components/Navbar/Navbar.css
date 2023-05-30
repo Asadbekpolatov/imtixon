@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 55%;
+    width: 65%;
     height: 100px;
 }
 
@@ -59,6 +59,7 @@
     font-size: 17px;
     position: relative;
     height: 100%;
+    cursor: pointer;
 }
 
 .bars .bar {
@@ -260,10 +261,11 @@
 
 .bola1 p {
     color: white;
-    width: 750px;
+    width: 100%;
     font-size: 20px;
     text-align: center;
     line-height: 0px;
+    padding-top: 30px;
 }
 
 .bola1 button {
@@ -274,6 +276,7 @@
     border-radius: 20px;
     border: none;
     font-size: 18px;
+    margin-top: 30px;
     font-family: sans-serif;
 }
 
@@ -567,9 +570,9 @@
     .bola1 p {
         color: white;
         width: 100%;
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
-   
+
 
     }
 

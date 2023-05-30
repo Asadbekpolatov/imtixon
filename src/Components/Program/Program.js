@@ -6,7 +6,7 @@ import img111 from "../../image/img111.png"
 function Program() {
     return (
 
-        <div>
+        <div className='prog'>
 
             <img className='imge' src={img6} alt="" />
             <div className="text"> <h1>Free VIN Decoder Tool</h1>
