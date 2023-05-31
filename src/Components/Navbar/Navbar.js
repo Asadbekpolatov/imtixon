@@ -1,7 +1,9 @@
 import React from 'react'
 import "./Navbar.css"
 import { AiFillStar } from "react-icons/ai"
+
 import {FaBars} from "react-icons/fa"
+import {FaShuttleVan} from "react-icons/fa"
 // import img6 from "../../image/img6.jpg"
 import img15 from "../../image/img15.png"
 import img100 from "../../image/img100.png"
@@ -17,7 +19,9 @@ import img1000 from "../../image/img1000.png"
 import img1100 from "../../image/img1100.png"
 import img1200 from "../../image/img1200.png"
 import img1300 from "../../image/img1300.png"
-import img1400 from "../../image/img1400.png"
+// import img1400 from "../../image/img1400.png"
+import furgon1 from "../../image/furgon1.png"
+import furgon2 from "../../image/furgon2.png"
 
 import { BsChevronDown } from "react-icons/bs"
 function Navbar() {
@@ -74,7 +78,9 @@ function Navbar() {
                         </li>
                         <li>Perfonmanke <BsChevronDown />
                             <div className='li2_hover'>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quae quos vero commodi vitae non culpa alias cum error necessitatibus veniam, porro exercitationem praesentium quidem blanditiis quod incidunt perferendis placeat dolore, assumenda architecto natus, laborum laboriosam! Esse eligendi labore rerum!</p>
+                             <h2>Heavy Duty Tuning</h2>
+                             <h2>Agriculture Tuning</h2>
+                             <h2>Construction Tuning</h2>
                             </div>
                         </li>
                         <li>Parts & Dealers <BsChevronDown />

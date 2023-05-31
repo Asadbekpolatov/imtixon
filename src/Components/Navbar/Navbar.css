@@ -60,6 +60,7 @@
     position: relative;
     height: 100%;
     cursor: pointer;
+
 }
 
 .bars .bar {
@@ -75,6 +76,7 @@
     top: 100px;
     border-radius: 20px;
     left: -40px;
+    transition: 0.3s;
 }
 
 .navbar ul li .li1_hover {
@@ -109,8 +111,8 @@
 }
 
 .hover_div1 .img100 {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
 }
 
@@ -120,57 +122,57 @@
 
 
 .hover_div2 .img500 {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
 }
 
 .hover_div2 .img600 {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
 }
 
 .hover_div2 .img700 {
-    width: 43px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
 }
 
 .hover_div2 .img800 {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
 }
 
 .hover_div3 .img900 {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
 }
 
 .hover_div3 .img1000 {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
 }
 
 .hover_div3 .img1100 {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 
 }
 
 .hover_div1 h1 {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .hover_div2 h1 {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .hover_div3 h1 {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .hover_div1 .img200 {
@@ -193,10 +195,15 @@
 
 .navbar ul li .li2_hover {
     background-color: whitesmoke;
-    width: 450px;
+    width: 250px;
     height: 340px;
     border-radius: 20px;
 }
+
+.li2_hover h2{
+    
+}
+
 
 .navbar ul li .li3_hover {
     background-color: green;
